@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta nome="viewport" content="width=device-width, initial-scale=1,0">
+        <title>Slider com HTML e CSS</title>
+        <link rel="stylesheet" href="style.css">   
+
+</head>
+<body>
+
+<div class="slider">
+        <div class="slides">
+                <!--Radio Butons-->
+        <input type="radio" nome="radio-btn" id="radio1">
+        <input type="radio" nome="radio-btn" id="radio2">
+        <input type="radio" nome="radio-btn" id="radio3">
+        <input type="radio" nome="radio-btn" id="radio4">
+                <!-- fIM Radio Butons-->
+
+        <!--slider imagenss-->
+
+        <div class="slide first">
+        <img src="https://assets.izap.com.br/izap.com.br/uploads/blog/imagens%20texto/banner-content-marketing.jpg" alt="imagem1" />
+        </div>
+
+        <div class="slide">
+                <img src="https://www.spcdn.org/blog/wp-content/uploads/2020/01/Frame-43OK-1110x420.png?x13378" alt="imagem2"/>
+                </div>
+                <div class="slide">
+                        <img src="https://www.megamodapark.com.br/wp-content/uploads/2019/10/BANNER-SITE-1920-x-620.png" alt="imagem3"/>
+                        </div>
+                        <div class="slide">
+                                <img src="https://www.uninorte.com.br/wp-content/uploads/2018/08/banner-site-transferencia-na-hora.jpg" alt="imagem4"/>
+                                </div>         
+       <!--fim slider imagenss-->
+
+         <!--navigationc-->
+
+         <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+         </div>
+         
+        </div>
+                <!-- manual navigationc-->
+
+        <div class="manuel-navigation">
+                <label for="radio1" class="manuel-btn"></label>
+                <label for="radio2" class="manuel-btn"></label>
+                <label for="radio3" class="manuel-btn"></label>
+                <label for="radio4" class="manuel-btn"></label>
+        </div>
+
+</div>
+
+
+        <script src="script.js"></script>
+</body>
+
+
+</html>
